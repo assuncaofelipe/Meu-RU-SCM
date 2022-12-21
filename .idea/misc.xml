@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/felip/AndroidStudioProjects/Meu-RU-SCM/app/src/main/res/drawable/arrow_back.xml" value="0.1045" />
+        <entry key="..\:/Users/felip/AndroidStudioProjects/Meu-RU-SCM/app/src/main/res/layout/activity_dias_cardapio.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/felip/AndroidStudioProjects/Meu-RU-SCM/app/src/main/res/layout/activity_loading_dialog.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/felip/AndroidStudioProjects/Meu-RU-SCM/app/src/main/res/layout/activity_login.xml" value="0.21041666666666667" />
         <entry key="..\:/Users/felip/AndroidStudioProjects/Meu-RU-SCM/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/felip/AndroidStudioProjects/Meu-RU-SCM/app/src/main/res/layout/activity_menu.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/felip/AndroidStudioProjects/Meu-RU-SCM/app/src/main/res/layout/activity_quarta_feira.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/felip/AndroidStudioProjects/Meu-RU-SCM/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1045" />
       </map>
     </option>
   </component>
