@@ -1,13 +1,23 @@
 package alua.desenvolvimento.meuru.ui.fragment
 
 import alua.desenvolvimento.meuru.R
-import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
+import android.app.Activity
+import android.app.AlertDialog
 
-
-class LoadingDialog : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_loading_dialog)
+class LoadingDialog(val mActivity: Activity) {
+    private lateinit var isdialog: AlertDialog
+    fun startLoading(){
+        /**set View*/
+        val infalter = mActivity.layoutInflater
+        val dialogView = infalter.inflate(R.layout.loading_item,null)
+        /**set Dialog*/
+        val builder = AlertDialog.Builder(mActivity)
+        builder.setView(dialogView)
+        builder.setCancelable(false)
+        isdialog = builder.create()
+        isdialog.show()
+    }
+    fun isDismiss(){
+        isdialog.dismiss()
     }
 }
