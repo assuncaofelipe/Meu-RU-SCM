@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="alua.desenvolvimento.meuru">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/itacoatiara"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/itacoatiara"
+        android:supportsRtl="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".services.cardapios.SabadoActivity"
+            android:exported="true"
+            android:label="@string/toolbar_sabado"
+            android:parentActivityName=".services.cardapios.DiasCardapioActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".services.cardapios.DiasCardapioActivity"
+            android:exported="true"
+            android:label="@string/txt_tela_dias_semana"
+            android:parentActivityName=".ui.home.MenuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".ui.utils.SobreActivity"
+            android:exported="true"
+            android:label="@string/txt_tela_sobre"
+            android:parentActivityName=".ui.home.MenuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".ui.utils.DeclaracaoQRcode"
+            android:exported="true"
+            android:label="@string/txt_tela_declaracao"
+            android:parentActivityName=".ui.home.MenuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".ui.utils.FichasRefeicaoActivity"
+            android:exported="true"
+            android:label="@string/txt_tela_fichas"
+            android:parentActivityName=".ui.home.MenuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".ui.home.MenuActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU.NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme"
+            tools:ignore="LockedOrientationActivity" />
+
+        <activity
+            android:name=".ui.utils.SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

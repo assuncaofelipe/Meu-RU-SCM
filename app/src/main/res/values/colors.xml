@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- MINHAS CORES -->
+    <!-- verde que será usado -->
+    <color name="background_splash_screen">#B936FF7E</color>
+    <!-- Verde toolbar-->
+    <color name="verde_primary">#21C15F</color>
+    <!-- verde mais escuro que o verde principal -->
+    <color name="verde_status_bar">#009837</color>
+    <!-- verde do picpay -->
+    <color name="cor_verde">#11C770</color>
+</resources>
