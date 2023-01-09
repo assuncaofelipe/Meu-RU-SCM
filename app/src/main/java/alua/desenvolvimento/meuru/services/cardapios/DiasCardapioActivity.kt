@@ -8,6 +8,6 @@ import alua.desenvolvimento.meuru.R
 class DiasCardapioActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_dias_cardapio)
+        setContentView(R.layout.activity_dias_semana)
     }
 }
