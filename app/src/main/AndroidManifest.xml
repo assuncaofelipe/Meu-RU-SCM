@@ -20,6 +20,52 @@
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MeuRU"
             tools:ignore="LockedOrientationActivity" />
+
+        <activity
+            android:name=".services.cardapios.SextaFeiraActivity"
+            android:exported="true"
+            android:label="@string/toolbar_sexta"
+            android:parentActivityName=".services.cardapios.DiasCardapioActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+
+        <activity
+            android:name=".services.cardapios.QuintaFeiraActivity"
+            android:exported="true"
+            android:label="@string/toolbar_quinta"
+            android:parentActivityName=".services.cardapios.DiasCardapioActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+
+        <activity
+            android:name=".services.cardapios.QuartaFeiraActivity"
+            android:exported="true"
+            android:label="@string/toolbar_quarta"
+            android:parentActivityName=".services.cardapios.DiasCardapioActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+
+        <activity
+            android:name=".services.cardapios.TercaFeiraActivity"
+            android:exported="true"
+            android:label="@string/toolbar_terca"
+            android:parentActivityName=".services.cardapios.DiasCardapioActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+
+        <activity
+            android:name=".services.cardapios.SegundaFeiraActivity"
+            android:exported="true"
+            android:label="@string/toolbar_segunda"
+            android:parentActivityName=".services.cardapios.DiasCardapioActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+
         <activity
             android:name=".services.cardapios.DiasCardapioActivity"
             android:exported="true"
